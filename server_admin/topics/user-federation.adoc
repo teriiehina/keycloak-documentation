@@ -3,7 +3,7 @@
 == User Storage Federation
 
 Many companies have existing user databases that hold information about users and their passwords or other credentials.
-In may cases, it is just not possible to migrate off of those existing stores to a pure {{book.project.name}} deployment.
+In many cases, it is just not possible to migrate off of those existing stores to a pure {{book.project.name}} deployment.
 {{book.project.name}} can federate existing external user databases.
 Out of the box we have support for LDAP and Active Directory.  You can also code your own extension for any custom
 user databases you might have using our User Storage SPI.
